@@ -33,7 +33,7 @@ export function Projects() {
       description: "Built a dynamic e-commerce application using React, JavaScript, and CSS with CDN backend integration. The app loads products via API calls, manages the shopping cart through the CDN backend, calculates totals, and places orders using the current cart. Implemented order tracking based on expected delivery dates, ensuring all calculations and data management are handled by the CDN backend for a fully interactive shopping experience.",
       techStack: ["HTML", "CSS", "JavaScript", "React", "API", "Backend"],
       liveViewLink: "#",
-      viewCodeLink: "#"
+      viewCodeLink: "https://github.com/Husnain-Rizwan/ecommerce-project"
     },
     {
       id: 4,
@@ -41,8 +41,8 @@ export function Projects() {
       title: "Personal Portfolio",
       description: "Developed a responsive portfolio website using React, JavaScript, and Tailwind CSS, implementing React Router for seamless multi-page navigation. Designed multiple pages showcasing projects and skills, ensuring the layout is fully responsive across different devices for a smooth user experience.",
       techStack: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
-      liveViewLink: "#",
-      viewCodeLink: "#"
+      liveViewLink: "https://husnain-rizwan-portfolio.netlify.app",
+      viewCodeLink: "https://github.com/Husnain-Rizwan/Portfolio"
     }
   ];
 
