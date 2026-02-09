@@ -14,7 +14,7 @@ export function Projects() {
       title: "Netflix Clone",
       description: "A responsive Netflix homepage clone built using HTML, CSS, and JavaScript, featuring a layout closely inspired by the original design. JavaScript is used to handle interactive popup boxes, and all links redirect to the official Netflix website for a realistic browsing experience.",
       techStack: ["HTML", "CSS", "JavaScript"],
-      liveViewLink: "https://netflx-main-page-clone.netlify.app/",
+      liveViewLink: "https://husnain-rizwan.github.io/Netlfix-FrontPage-Clone/",
       viewCodeLink: "https://github.com/Husnain-Rizwan/Netlfix-FrontPage-Clone"
     },
     {
@@ -23,7 +23,7 @@ export function Projects() {
       title: "Amazon Clone",
       description: "Developed a fully functional Amazon front-end clone using HTML, CSS, and JavaScript. Implemented product listing, add-to-cart functionality, and dynamic cart calculations including total payment summary. Enabled order tracking and placing orders directly from the cart, creating an interactive, user-friendly shopping experience that mimics real e-commerce functionality.",
       techStack: ["HTML", "CSS", "JavaScript"],
-      liveViewLink: "https://amazon-cart-frontend-clone.netlify.app/",
+      liveViewLink: "https://amazon-cart-frontendclone.netlify.app/",
       viewCodeLink: "https://github.com/Husnain-Rizwan/amazon-clone"
     },
     {
@@ -41,7 +41,7 @@ export function Projects() {
       title: "Personal Portfolio",
       description: "Developed a responsive portfolio website using React, JavaScript, and Tailwind CSS, implementing React Router for seamless multi-page navigation. Designed multiple pages showcasing projects and skills, ensuring the layout is fully responsive across different devices for a smooth user experience.",
       techStack: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
-      liveViewLink: "https://husnain-rizwan-portfolio.netlify.app/",
+      liveViewLink: "https://husnain-rzwan-portfolio.netlify.app/",
       viewCodeLink: "https://github.com/Husnain-Rizwan/Portfolio"
     }
   ];
