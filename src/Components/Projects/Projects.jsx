@@ -14,7 +14,7 @@ export function Projects() {
       title: "Netflix Clone",
       description: "A responsive Netflix homepage clone built using HTML, CSS, and JavaScript, featuring a layout closely inspired by the original design. JavaScript is used to handle interactive popup boxes, and all links redirect to the official Netflix website for a realistic browsing experience.",
       techStack: ["HTML", "CSS", "JavaScript"],
-      liveViewLink: "https://netflx-main-page1-clone.netlify.app/",
+      liveViewLink: "https://netflx-main-page-clone.netlify.app/",
       viewCodeLink: "https://github.com/Husnain-Rizwan/Netlfix-FrontPage-Clone"
     },
     {
