@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.img-border {
+  padding: 4px; /* border thickness */
+  border-radius: 50%; /* makes it circular (use px for rounded rectangle) */
+  background: linear-gradient(
+    360deg,
+    hsla(207, 80%, 56%, 1) 0%,
+    hsla(314, 80%, 48%, 1) 100%
+  );
+  display: inline-block;
+}
+
+.img-border Link img {
+  display: block;
+  width: 10px;       /* adjust as needed */
+  height: 10px;
+  border-radius: 50%;
+  object-fit: cover;
+  background: white; /* inner background */
+}
