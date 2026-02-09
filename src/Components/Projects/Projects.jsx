@@ -41,7 +41,7 @@ export function Projects() {
       title: "Personal Portfolio",
       description: "Developed a responsive portfolio website using React, JavaScript, and Tailwind CSS, implementing React Router for seamless multi-page navigation. Designed multiple pages showcasing projects and skills, ensuring the layout is fully responsive across different devices for a smooth user experience.",
       techStack: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS"],
-      liveViewLink: "https://husnain-rizwan-portfolio.netlify.app",
+      liveViewLink: "https://husnain-rizwan-portfolio.netlify.app/",
       viewCodeLink: "https://github.com/Husnain-Rizwan/Portfolio"
     }
   ];
