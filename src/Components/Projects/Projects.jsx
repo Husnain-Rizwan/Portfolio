@@ -75,31 +75,43 @@ export function Projects() {
   };
 
   return (
-    <section className="flex flex-col justify-center  mt-20 px-4 py-2 w-[70%] mx-auto my-20 text-center">
+    <section className="flex flex-col justify-center mt-20 px-4 py-2 w-full max-w-6xl mx-auto my-20 text-center">
       {/* Popup */}
       {visible && <ProjectBox data={selectedData} onClose={() => setVisible(false)} />}
 
-      <div>
-        <h1 className="text-2xl text-[#42446E] font-bold">Projects</h1>
-        <p className="text-ms text-gray-500 mt-3">Things I've been working on recently</p>
+      <div className="mb-10">
+        <p className="text-sm uppercase tracking-[0.3em] text-cyan-300/80 mb-3">Featured work</p>
+        <h1 className="text-4xl md:text-5xl font-extrabold text-slate-100">Projects</h1>
+        <p className="max-w-2xl mx-auto text-sm md:text-base text-slate-400 mt-4 leading-7">A selection of recent case studies that highlight polished interfaces, modern layout, and elegant interactions.</p>
       </div>
 
-      <div id='projects' className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12 rounded-2xl p-12 shadow-2xl bg-gray-700">
+      <div id="projects" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-12 p-6 md:p-8 rounded-[2rem] bg-slate-950/80 shadow-2xl border border-white/10">
         {ProjectsArray.map((project) => (
           <div
             key={project.id}
-            className="max-w-70 max-h-120 bg-[#EEF0FF] rounded-lg cursor-pointer hover:scale-95 transition-all shadow-lg"
+            className="group overflow-hidden rounded-[1.75rem] border border-white/10 bg-slate-900/95 shadow-[0_25px_80px_-30px_rgba(15,23,42,0.8)] transition duration-300 hover:-translate-y-1 hover:shadow-[0_30px_90px_-30px_rgba(15,23,42,0.9)] cursor-pointer"
             onClick={() => handleProjectClick(project)}
           >
-            <img
-              src={project.image}
-              alt={project.title}
-              loading="lazy"
-              decoding="async"
-              className="w-full h-40 object-cover object-top mb-4 rounded-md"
-            />
-            <h2 className="text-lg font-bold text-[#42446E] px-4">{project.title}</h2>
-            <p className="text-[13px] text-gray-600 px-4 pb-4 text-left wrap-anywhere ">{project.description.slice(0, 180)}...</p>
+            <div className="relative overflow-hidden">
+              <img
+                src={project.image}
+                alt={project.title}
+                loading="lazy"
+                decoding="async"
+                className="w-full h-44 object-cover object-top transition duration-500 group-hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-slate-950/90 via-slate-950/10 to-transparent opacity-0 group-hover:opacity-100 transition duration-500" />
+            </div>
+
+            <div className="px-6 py-5 text-left">
+              <h2 className="text-xl md:text-2xl font-semibold text-slate-100 mb-3">{project.title}</h2>
+              <p className="text-sm md:text-base text-slate-400 leading-6 mb-5">{project.description.slice(0, 140)}...</p>
+              <div className="flex flex-wrap gap-2">
+                {project.techStack.map((tech, index) => (
+                  <span key={index} className="inline-flex items-center rounded-full border border-slate-700 bg-slate-950/80 px-3 py-1 text-xs text-slate-300">{tech}</span>
+                ))}
+              </div>
+            </div>
           </div>
         ))}
       </div>
