@@ -12,9 +12,9 @@ export function ProjectBox({ data, onClose }) {
   };
 
   useEffect(() => {
-    document.body.style.overflow = "hidden"; // lock scroll
+    document.body.style.overflow = "hidden"; 
     return () => {
-      document.body.style.overflow = "auto"; // unlock scroll
+      document.body.style.overflow = "auto"; 
     };
   }, []);
 
@@ -39,7 +39,9 @@ export function ProjectBox({ data, onClose }) {
         <img
           className="w-full h-48 md:h-80 object-cover object-top rounded-t-2xl"
           src={data.image}
-          alt="Project Image"
+          alt={data.title}
+          loading="lazy"
+          decoding="async"
         />
 
         <div className="px-6 py-4 text-left">
