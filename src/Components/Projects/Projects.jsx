@@ -7,29 +7,21 @@ import _24HoursStory from "../../assets/_24HoursStory.png";
 import amazon from "../../assets/Amazon.png";
 import ecommerce from "../../assets/Ecommerce.png";
 import portfolio from "../../assets/Portfolio.png";
+import jobBoard from "../../assets/job-board.png";
 
 export function Projects() {
   const ProjectsArray = [
     {
       id: 1,
-      image: EcommerceUI,
-      title: "E-commerce Website UI",
-      description: "Designed and developed a modern e-commerce web page with a focus on clean UI principles, precise typography, font selection, responsive layouts, and an enhanced user experience following current design standards",
-      techStack: ["HTML", "CSS", "JavaScript", "React"],
-      liveViewLink: "https://ecommerce-web-design-rho.vercel.app/",
-      viewCodeLink: "https://github.com/Husnain-Rizwan/Ecommerce-web-design"
+      image: jobBoard,
+      title: "MERN Based Job Board And Application Tracking System",
+      description: "A full-stack MERN Job Board and Application Tracking System that allows jobseekers to discover and apply for jobs, manage their profiles and applications, while recruiters can post jobs, review applicants, manage application statuses, and track the hiring process.",
+      techStack: ["React", "NodeJs", "Express", "MongoDB"],
+      liveViewLink: "https://job-board-and-ats.vercel.app/",
+      viewCodeLink: "https://github.com/Husnain-Rizwan/Job-board-and-Ats"
     },
     {
       id: 2,
-      image: Nexus,
-      title: "Business Nexus Features",
-      description: "A Forked React-based business collaboration prototype with an interactive calendar using FullCalendar React and a dummy video calling interface for simulating meetings and communication workflows.",
-      techStack: ["HTML", "CSS", "JavaScript", "React"],
-      liveViewLink: "https://nexus-delta-jet.vercel.app/",
-      viewCodeLink: "https://github.com/Husnain-Rizwan/Nexus"
-    },
-    {
-      id: 3,
       image: amazon,
       title: "Amazon Cart System",
       description: "Developed a fully functional Amazon front-end Cart sytem  using HTML, CSS, and JavaScript. Implemented product listing, add-to-cart functionality, and dynamic cart calculations including total payment summary. Enabled order tracking and placing orders directly from the cart, creating an interactive, user-friendly shopping experience that mimics real e-commerce functionality.",
@@ -38,7 +30,25 @@ export function Projects() {
       viewCodeLink: "https://github.com/Husnain-Rizwan/amazon-clone"
     },
     {
+      id: 3,
+      image: EcommerceUI,
+      title: "E-commerce Website UI",
+      description: "Designed and developed a modern e-commerce web page with a focus on clean UI principles, precise typography, font selection, responsive layouts, and an enhanced user experience following current design standards",
+      techStack: ["HTML", "CSS", "JavaScript", "React"],
+      liveViewLink: "https://ecommerce-web-design-rho.vercel.app/",
+      viewCodeLink: "https://github.com/Husnain-Rizwan/Ecommerce-web-design"
+    },
+    {
       id: 4,
+      image: Nexus,
+      title: "Business Nexus Features",
+      description: "A Forked React-based business collaboration prototype with an interactive calendar using FullCalendar React and a dummy video calling interface for simulating meetings and communication workflows.",
+      techStack: ["HTML", "CSS", "JavaScript", "React"],
+      liveViewLink: "https://nexus-delta-jet.vercel.app/",
+      viewCodeLink: "https://github.com/Husnain-Rizwan/Nexus"
+    },
+    {
+      id: 5,
       image: ecommerce,
       title: "E-commerce Platform (React & JS)",
       description: "Built a dynamic e-commerce application using React, JavaScript, and CSS with CDN backend integration. The app loads products via API calls, manages the shopping cart through the CDN backend, calculates totals, and places orders using the current cart. Implemented order tracking based on expected delivery dates, ensuring all calculations and data management are handled by the CDN backend for a fully interactive shopping experience.",
@@ -47,7 +57,7 @@ export function Projects() {
       viewCodeLink: "https://github.com/Husnain-Rizwan/ecommerce-project"
     },
     {
-      id: 5,
+      id: 6,
       image: _24HoursStory,
       title: "24-Hour Story",
       description: "Developed a social media-style story feature with the help of Lovable AI, allowing users to upload 3-second stories that automatically expire and are deleted after 24 hours.",
@@ -56,7 +66,7 @@ export function Projects() {
       viewCodeLink: "https://github.com/Husnain-Rizwan/24Hours-Stories-Feature"
     },
     {
-      id: 6,
+      id: 7,
       image: portfolio,
       title: "Personal Portfolio",
       description: "Developed a responsive portfolio website using React, JavaScript, and Tailwind CSS, implementing React Router for seamless multi-page navigation. Designed multiple pages showcasing projects and skills, ensuring the layout is fully responsive across different devices for a smooth user experience.",
