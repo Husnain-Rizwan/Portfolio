@@ -6,6 +6,9 @@ import gitLogo from "../../assets/git-logo.svg";
 import githubLogo from "../../assets/github-logo.svg";
 import tailwindLogo from "../../assets/tailwind-logo.svg";
 import vsCodeLogo from "../../assets/vs-code-logo.svg";
+import nodejs from "../../assets/nodejs.svg";
+import MongoDB from "../../assets/mongodb.svg";
+import Express from "../../assets/Express.svg";
 
 export function TechStack(){
   const technologies = [
@@ -13,6 +16,9 @@ export function TechStack(){
     { name: "CSS3", imgSrc: css3Logo },
     { name: "JavaScript", imgSrc: jsLogo },
     { name: "React", imgSrc: reactLogo },
+    { name: "NodeJs", imgSrc: nodejs },
+    { name: "MongoDB", imgSrc: MongoDB },
+    { name: "Express", imgSrc: Express },
     { name: "Git", imgSrc: gitLogo },
     { name: "GitHub", imgSrc: githubLogo },
     { name: "Tailwind CSS", imgSrc: tailwindLogo },
